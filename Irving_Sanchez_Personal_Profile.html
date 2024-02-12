@@ -1,0 +1,149 @@
+<!DOCTYPE html> <!-- This defines the document type and version of HTML -->
+<html>
+<head>
+    <title>About Me</title>
+    <style>
+        /* This edits the elements within the webpage */
+        body {
+            font-family: math;
+            background-color: #38035d; /*Sets background as Dark Purple */
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.0;
+        }
+        .container { /* edits the light purple box pertaining to its size */
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header { /* This centers the Name, Major, and Minor */
+            text-align: center;
+            padding: 5px 0;
+            position: relative;
+        }
+        nav ul {
+            text-align: center;
+            list-style-type: none;
+            padding: 0;
+            background-color: #330033;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .profile-picture { /* edits the size of the photo */
+            width: 200px;
+            height: 200px;
+            border: 5px solid white;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+        }
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .header h1 { /* edits size of Irving Sanchez */
+            font-size: 36px;
+            margin: 0;
+        }
+        .header h2 { /* edits the size of Major */
+            font-size: 22px;
+            margin: 0;
+        }
+        .header h2.minor {
+            font-size: 19px; /* Smaller font size for 'Minor in Mathematics' */
+        }
+        .section { /* edits parameters for the light purple boxes */
+            background-color: #6039a0;
+            padding: 20px; /* edits how much the wording is wrapped by box */
+            margin: 10px 0;
+            border-radius: 20px; /* adds radius to each of the boxes */
+        }
+        .section h2 { /* edits the font for the header of each box */
+            font-size: 18px;
+            margin: 0;
+        }
+        .section h2 + p a {
+            color: rgb(117, 236, 218) !important;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info{ /* edits position of the contact information */
+            position:absolute;
+            top: 20px;
+            right: 10px;
+            font-size: 13px;
+        }
+        .contact-link { /* color of contact link information */
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .separator { /* the little line between discord and email */
+            color: #ffffff;
+            margin: 05px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Section for the contact information -->
+    <div class = "contact-info">
+        <a href="mailto: IrvingFSanchez@lewisu.edu" class="contact-link">IrvingFSanchez@lewisu.edu</a>
+        <span class="seperator"> | </span>
+        <a href="https://discord.com/channels/594310594220392502/723842616575131698" class="contact-link">Discord: iamgroot48ttv </a>
+    </div>
+
+    <nav>
+        <ul style = "text-align: left; list-style-type: none; padding: 0; background-color: #38035d;">
+            <li style = "display: inline; margin-left: 20px; "><a href = "index.html" style = "text-decoration: none; color: #ffffff;">Home</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="header">
+            <div class="profile-picture">
+                <img src="https://i.postimg.cc/TwtCHzV8/S3anchez-0047.jpg" alt="">
+            </div>
+            <h1>Irving F. Sanchez</h1>
+            <h2>B.S. Computer Science</h2>
+            <h2 class="minor">Minor in Mathematics</h2>
+        </div>
+
+        <div class="section">
+            <h2>Reasons for Pursuing This Degree:</h2>
+            <p>Initially, I was going into computer engineering, but I fell in love with the programming aspect of computer engineering so I switched to computer science. I just love programming so much and I have a huge interest in AI, software engineering, robotics, and cyber security. With that being said, my major is a B.S. in Computer Science with a minor in Mathematics. I'm pursuing this degree because of my background as an electrician and to pursue my master's in Computer Engineering later down the road.</p>
+        </div>
+
+        <div class="section">
+            <h2>Reasons for Taking This Course:</h2>
+            <p>To create my professional profile</p>
+        </div>
+
+        <div class="section">
+            <h2>Current/Recent Job:</h2>
+            <p>I recently finished my last contract with the United States Air Force, and during my time with them, I attained my journeyman status as an electrician.</p>
+        </div>
+
+        <div class="section">
+            <h2>Hobbies and Special Interests:</h2>
+            <p>As far as hobbies, I'm a fairly simple dude—I love my dogs, I'm huge into reading comic books (Batman, Star Wars, and Manga). I build custom PCs, and I've built quite a bit of them for Chicago health clinics and gamers. I'm huge into futbol and boxing. I'm constantly putting myself into a lot of situations where I can further my education, so school has never really ended for me.</p>
+        </div>
+
+        <div class="section">
+            <h2>Fun Fact:</h2>
+            <p>A fun fact about myself—I'm originally from Oaxaca, Oaxaca, Mexico. I came to the U.S. when I was a year old.</p>
+        </div>
+
+        <div class="section">
+            <h2>Do Not Click:</h2>
+            <p>No seriously--do not click this link: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Unless you really want to... 😎</a></p>
+        </div>
+    </div>
+</body>
+</html>
