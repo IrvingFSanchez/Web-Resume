@@ -2,7 +2,8 @@
 
 - Author
 
-- **Irving Sanchez*  - [IrvingFSanchez](https://github.com/IrvingFSanchez)
+- **Irving Sanchez*  
+- [IrvingFSanchez](https://github.com/IrvingFSanchez)
 ~<IrvingFSanchez@lewisu.edu>
 
 - License
